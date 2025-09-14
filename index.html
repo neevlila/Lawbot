@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Legal Assistant - Intelligent Legal Case Support</title>
+    
+    <meta name="description" content="AI-powered chatbot for legal case support, providing 24/7 assistance for legal queries, case management, and departmental guidance" />
+    <meta name="author" content="Dualite Alpha" />
+
+    <meta property="og:title" content="AI Legal Assistant - Intelligent Legal Case Support" />
+    <meta property="og:description" content="AI-powered chatbot for legal case support, providing 24/7 assistance for legal queries, case management, and departmental guidance" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://alpha.dualite.dev" />
+    <meta property="og:image" content="https://ibb.co/67X3xfSV" />
+    <meta property="og:image:width" content="960" />
+    <meta property="og:image:height" content="600" />	
+    <meta property="og:image:alt" content="AI Legal Assistant chatbot interface with 3D avatar and modern design" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="AI Legal Assistant - Intelligent Legal Case Support" />
+    <meta name="twitter:description" content="AI-powered chatbot for legal case support, providing 24/7 assistance for legal queries, case management, and departmental guidance" />
+    <meta name="twitter:site" content="@dualitedev" />
+    <meta name="twitter:image" content="https://ibb.co/67X3xfSV" />
+
+    <link rel="canonical" href="https://alpha.dualite.dev" />
+
+     <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "AI Legal Assistant",
+      "url": "https://alpha.dualite.dev",
+      "description": "AI-powered chatbot for legal case support, providing 24/7 assistance for legal queries, case management, and departmental guidance",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Dualite Alpha"
+      }
+    }
+    </script>
+
+    <!-- Theme persistence script to prevent FOUC -->
+    <script>
+      (function() {
+        function getInitialTheme() {
+          try {
+            const storedTheme = localStorage.getItem('theme');
+            if (storedTheme) {
+              return storedTheme;
+            }
+            return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+          } catch (e) {
+            return 'light';
+          }
+        }
+        const theme = getInitialTheme();
+        if (theme === 'dark') {
+          document.documentElement.classList.add('dark');
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
