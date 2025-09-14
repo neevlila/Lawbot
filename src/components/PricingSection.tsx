@@ -21,7 +21,6 @@ const plans = [
     price: '$49',
     description: 'For growing teams and legal professionals.',
     features: [
-      'Advanced Gemini-powered AI',
       'Unlimited Case Searches',
       'Priority Email Support',
       'Case Summarization',
