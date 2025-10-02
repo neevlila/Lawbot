@@ -1,8 +1,9 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Bot, User } from 'lucide-react';
+import { User } from 'lucide-react';
 import { Message } from '../types';
 import StreamedText from './StreamedText';
+import Logo from './Logo';
 
 interface ChatMessageProps {
   message: Message;
@@ -21,18 +22,17 @@ const ChatMessage: React.FC<ChatMessageProps> = ({ message, isLastMessage }) => 
       className={`flex w-full ${isBot ? 'justify-start' : 'justify-end'}`}
     >
       <div className={`flex items-end gap-3 max-w-[85%] sm:max-w-md ${isBot ? '' : 'flex-row-reverse'}`}>
-        <div className={`w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 ${
+        <div className={`w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 overflow-hidden ${
           isBot 
             ? 'bg-gradient-to-r from-purple-500 to-blue-500' 
             : 'bg-gradient-to-r from-blue-400 to-cyan-400 dark:from-blue-500 dark:to-cyan-500'
         }`}>
           {isBot ? (
-            <Bot size={16} className="text-white" />
+            <Logo className="w-6 h-6" />
           ) : (
             <User size={16} className="text-white" />
           )}
         </div>
-        
         <motion.div
           className={`px-4 py-3 rounded-2xl shadow-md transition-colors duration-500 ${
             isBot

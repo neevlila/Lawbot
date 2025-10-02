@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { MessageCircle } from 'lucide-react';
 import { useTheme } from '../contexts/ThemeContext';
+import Logo from './Logo';
 
 interface ChatBot3DProps {
   isTyping: boolean;
@@ -48,7 +48,8 @@ const ChatBot3D: React.FC<ChatBot3DProps> = ({ isTyping, isListening }) => {
         {/* Glassmorphism Button */}
         <div className={`absolute inset-0 rounded-full p-1 shadow-xl border border-white/10 ${isDark ? 'bg-gradient-to-br from-purple-700/60 via-blue-900/40 to-cyan-800/30' : 'bg-gradient-to-br from-indigo-200/60 via-blue-100/40 to-cyan-100/30'} backdrop-blur-md`}>
           <div className="w-full h-full rounded-full flex items-center justify-center">
-            <MessageCircle size={28} className={isDark ? "text-purple-400" : "text-indigo-500"} />
+            {/* Replace icon with Logo */}
+            <Logo className="w-7 h-7" />
           </div>
         </div>
 
