@@ -7,6 +7,7 @@ import ThemeToggle from '../components/ThemeToggle';
 import BackgroundAnimation from '../components/BackgroundAnimation';
 import SideNav from '../components/SideNav';
 import { ChatProvider, useChat } from '../contexts/ChatContext';
+import Logo from '../components/Logo'; // <-- Add this import
 
 const ChatbotPageContent: React.FC = () => {
   const { toggleSideNav, isSideNavOpen, startNewSession } = useChat();
@@ -42,8 +43,9 @@ const ChatbotPageContent: React.FC = () => {
                 <Menu size={22} />
               </motion.button>
               <div className="flex items-center gap-3">
-                <div className="w-8 h-8 rounded-lg bg-gradient-to-r from-purple-500 to-blue-500 flex items-center justify-center shadow-md">
-                  <Bot size={18} className="text-white" />
+                {/* Replace icon+text with Logo */}
+                <div className="w-8 h-8">
+                  <Logo />
                 </div>
                 <h1 className="text-lg font-bold text-light-text dark:text-dark-text hidden sm:block">AI Legal Assistant</h1>
               </div>
