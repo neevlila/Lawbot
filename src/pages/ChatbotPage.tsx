@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, Bot, ArrowLeft } from 'lucide-react';
+import { Menu, ArrowLeft } from 'lucide-react';
 import ChatInterface from '../components/ChatInterface';
 import ThemeToggle from '../components/ThemeToggle';
 import BackgroundAnimation from '../components/BackgroundAnimation';
