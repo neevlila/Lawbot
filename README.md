@@ -76,7 +76,7 @@ It provides **AI-driven insights** into legal queries and helps summarize or int
 
 | Home | Chat Interface | AI Response |
 |------|----------------|-------------|
-| ![Home](assets/screenshots/home.png) | ![Chat](assets/screenshots/chat.png) | ![Response](assets/screenshots/response.png) |
+| ![Home](assets/home.png) | ![Chat](assets/chat.png) | ![Response](assets/screenshots/response.png) |
 
 > Replace with actual screenshots from your project.
 
