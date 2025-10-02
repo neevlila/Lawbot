@@ -27,8 +27,6 @@ const Navbar: React.FC = () => {
         </div>
         <div className="flex items-center gap-4">
           <ThemeToggle />
-          <Link to="/auth">
-          </Link>
         </div>
       </div>
     </motion.nav>
