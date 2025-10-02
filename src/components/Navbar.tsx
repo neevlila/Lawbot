@@ -20,6 +20,7 @@ const Navbar: React.FC = () => {
           <span className="font-bold text-lg text-light-text dark:text-dark-text">AI Legal Assistant</span>
         </Link>
         <div className="hidden md:flex items-center gap-6">
+          <Link to="/" className="text-sm font-medium text-light-text-secondary dark:text-dark-text-secondary hover:text-light-text dark:hover:text-dark-text transition-colors">Home</Link>
           <Link to="/features" className="text-sm font-medium text-light-text-secondary dark:text-dark-text-secondary hover:text-light-text dark:hover:text-dark-text transition-colors">Features</Link>
           <Link to="/pricing" className="text-sm font-medium text-light-text-secondary dark:text-dark-text-secondary hover:text-light-text dark:hover:text-dark-text transition-colors">Pricing</Link>
           <Link to="/contact" className="text-sm font-medium text-light-text-secondary dark:text-dark-text-secondary hover:text-light-text dark:hover:text-dark-text transition-colors">Contact</Link>
@@ -27,13 +28,6 @@ const Navbar: React.FC = () => {
         <div className="flex items-center gap-4">
           <ThemeToggle />
           <Link to="/auth">
-            <motion.div
-              className="hidden md:inline-block px-5 py-2 bg-gradient-to-r from-indigo-400 to-blue-400 dark:from-purple-500 dark:via-blue-500 dark:to-cyan-500 text-white rounded-lg font-semibold text-sm shadow-lg"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-            >
-              Login / Sign Up
-            </motion.div>
           </Link>
         </div>
       </div>

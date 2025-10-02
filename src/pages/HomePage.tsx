@@ -24,17 +24,7 @@ const HomePage: React.FC = () => {
             Join thousands of legal professionals who trust our AI assistant for efficient case management and instant support.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Link to="/auth">
-              <motion.div
-                className="inline-block px-8 py-4 bg-gradient-to-r from-indigo-400 to-blue-400 dark:from-purple-500 dark:via-blue-500 dark:to-cyan-500 text-white rounded-xl font-semibold text-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
-                whileHover={{
-                  scale: 1.05,
-                }}
-                whileTap={{ scale: 0.95 }}
-              >
-                Start Your Free Trial
-              </motion.div>
-            </Link>
+            {/* Removed the auth/signup CTA — keep pricing or other CTAs only */}
             <Link to="/pricing">
               <motion.div
                 className="group relative w-full sm:w-auto px-8 py-4 bg-light-surface/50 dark:bg-dark-surface/50 backdrop-blur-sm text-light-text dark:text-dark-text rounded-xl font-semibold text-lg border border-light-border dark:border-dark-border overflow-hidden"

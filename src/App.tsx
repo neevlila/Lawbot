@@ -9,7 +9,6 @@ import PricingPage from './pages/PricingPage';
 import ContactPage from './pages/ContactPage';
 import PrivacyPolicyPage from './pages/PrivacyPolicyPage';
 import TermsOfServicePage from './pages/TermsOfServicePage';
-import AuthPage from './pages/AuthPage';
 
 const App: React.FC = () => {
   return (
@@ -25,7 +24,6 @@ const App: React.FC = () => {
             <Route path="/terms-of-service" element={<TermsOfServicePage />} />
           </Route>
           <Route path="/chatbot" element={<ChatbotPage />} />
-          <Route path="/auth" element={<AuthPage />} />
         </Routes>
       </div>
     </ThemeProvider>
