@@ -13,7 +13,7 @@
 
 **LawBot** is an AI-powered chatbot built with **React + TypeScript + Vite** that leverages **Google Generative AI** to help users ask and interpret legal questions in a conversational, intuitive way.  
 
-🔗 **Live Demo**: [lawbot-six.vercel.app](https://lawbot-six.vercel.app)  
+🔗 **Live Demo**: [lawbot-six.vercel.app](https://law-bot-teal.vercel.app)  
 
 ---
 
