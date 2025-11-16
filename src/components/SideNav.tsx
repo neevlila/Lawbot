@@ -131,7 +131,7 @@ const SideNav: React.FC = () => {
             
             <div className="p-4 border-t border-light-border dark:border-dark-border text-center">
               <p className="text-xs text-light-text-secondary dark:text-dark-text-secondary">
-                Powered by Aurora AI
+                Your Legal AI Assistant
               </p>
             </div>
           </motion.div>
