@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Sitemap: https://lawbot-teal.vercel.app/sitemap.xml
+
+# Block any sensitive or internal paths
+Disallow: /admin
+Disallow: /config

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Legal Assistant - Free, Private & Instant Legal Help</title>
+    
+    <meta name="description" content="The best free AI Legal Assistant for instant case summaries, law suggestions, and drafting. 100% Private: Your chats are stored locally in your browser, never on our servers." />
+    <meta name="author" content="Neev Lila" />
+    <link rel="icon" type="image/png" href="https://i.ibb.co/dwBjhTRW/6-60553-advocate-logos-related-to-law-removebg-preview.png" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="AI Legal Assistant - Private & Intelligent Legal Support" />
+    <meta property="og:description" content="Get instant legal answers without compromising privacy. No database storage - your legal queries stay on your device." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://lawbot-teal.vercel.app" />
+    <meta property="og:image" content="https://ibb.co/67X3xfSV" />
+    <meta property="og:image:alt" content="AI Legal Assistant Interface" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="AI Legal Assistant - Private & Intelligent Legal Support" />
+    <meta name="twitter:description" content="Get instant legal answers without compromising privacy. No database storage - your legal queries stay on your device." />
+    <meta name="twitter:image" content="https://ibb.co/67X3xfSV" />
+
+    <!-- SEO Keywords -->
+    <meta name="keywords" content="AI legal assistant, legal chatbot, free legal advice AI, privacy focused legal AI, case summarization, legal document analysis, Indian law AI, GDPR compliant chatbot, local storage chat" />
+
+    <link rel="canonical" href="https://lawbot-teal.vercel.app" />
+
+     <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "AI Legal Assistant",
+      "applicationCategory": "LegalApplication",
+      "operatingSystem": "Web",
+      "description": "AI-powered chatbot for legal case support. Features 100% local data storage for maximum privacy.",
+      "author": {
+        "@type": "Person",
+        "name": "Neev Lila"
+      }
+    }
+    </script>
+
+    <!-- Theme persistence script to prevent FOUC -->
+    <script>
+      (function() {
+        function getInitialTheme() {
+          try {
+            const storedTheme = localStorage.getItem('theme');
+            if (storedTheme) {
+              return storedTheme;
+            }
+            return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+          } catch (e) {
+            return 'light';
+          }
+        }
+        const theme = getInitialTheme();
+        if (theme === 'dark') {
+          document.documentElement.classList.add('dark');
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
